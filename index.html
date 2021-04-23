@@ -91,6 +91,7 @@
         function endDrage(ev) {
             ev.dataTransfer.setData("Text", event.target.id);
             ev.target.style.backgroundColor = "green";
+            ev.target.style.color = "white";
             ev.target.style.opacity = "1";
         }
         function overDrage(ev) {
